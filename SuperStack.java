@@ -5,7 +5,7 @@ public class SuperStack {
 
     public static void main (String[] args)  
     { 
-    	Scanner scan = new Scanner(System.in);
+      Scanner scan = new Scanner(System.in);
  
          // No of operations
         int noofoperations = Integer.parseInt(scan.nextLine());
@@ -17,10 +17,10 @@ public class SuperStack {
         {
                 operationlist[i] = scan.nextLine();
         }
-        superStack(operationlist);
+        performOperations(operationlist);
     }
 
-    private static void superStack (String[] operationlist)
+    private static void performOperations (String[] operationlist)
     {
        ArrayList<Integer> stack = new ArrayList<Integer>();
        if(operationlist == null)
