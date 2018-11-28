@@ -1,3 +1,4 @@
+1. Finding the minimum sum of unique array
 Steps to run the code from terminal:
 
         javac MinimumUniqueArraySum.java
